@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-09T13:38:17 IST" name="Default suite" finished-at="2022-11-09T13:38:23 IST" duration-ms="6044">
+    <groups>
+    </groups>
+    <test started-at="2022-11-09T13:38:17 IST" name="Default test" finished-at="2022-11-09T13:38:23 IST" duration-ms="6044">
+      <class name="Ddfangelstockbroker.ASBLoginTestClass2">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Ddfangelstockbroker.ASBLoginTestClass2@2c767a52]" started-at="2022-11-09T13:38:17 IST" name="openBrowser" finished-at="2022-11-09T13:38:20 IST" duration-ms="3392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="readExcel()[pri:0, instance:Ddfangelstockbroker.ASBLoginTestClass2@2c767a52]" started-at="2022-11-09T13:38:20 IST" name="readExcel" finished-at="2022-11-09T13:38:21 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcel -->
+        <test-method signature="loginangel()[pri:1, instance:Ddfangelstockbroker.ASBLoginTestClass2@2c767a52]" started-at="2022-11-09T13:38:21 IST" name="loginangel" finished-at="2022-11-09T13:38:21 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginangel -->
+        <test-method is-config="true" signature="readExcel()[pri:0, instance:Ddfangelstockbroker.ASBLoginTestClass2@2c767a52]" started-at="2022-11-09T13:38:21 IST" name="readExcel" finished-at="2022-11-09T13:38:21 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcel -->
+        <test-method signature="clickonoldvers()[pri:2, instance:Ddfangelstockbroker.ASBLoginTestClass2@2c767a52]" started-at="2022-11-09T13:38:21 IST" name="clickonoldvers" finished-at="2022-11-09T13:38:22 IST" depends-on-methods="Ddfangelstockbroker.ASBLoginTestClass2.loginangel" duration-ms="959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonoldvers -->
+        <test-method is-config="true" signature="readExcel()[pri:0, instance:Ddfangelstockbroker.ASBLoginTestClass2@2c767a52]" started-at="2022-11-09T13:38:22 IST" name="readExcel" finished-at="2022-11-09T13:38:22 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readExcel -->
+        <test-method signature="getuseridverify()[pri:3, instance:Ddfangelstockbroker.ASBLoginTestClass2@2c767a52]" started-at="2022-11-09T13:38:22 IST" name="getuseridverify" finished-at="2022-11-09T13:38:23 IST" depends-on-methods="Ddfangelstockbroker.ASBLoginTestClass2.clickonoldvers" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getuseridverify -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Ddfangelstockbroker.ASBLoginTestClass2@2c767a52]" started-at="2022-11-09T13:38:23 IST" name="closeBrowser" finished-at="2022-11-09T13:38:23 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Ddfangelstockbroker.ASBLoginTestClass2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
