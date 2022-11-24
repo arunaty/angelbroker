@@ -42,6 +42,7 @@ public class LinkValidationRahul {
 			Thread.sleep(1000);
 			String title = driver.switchTo().window(goid.get(j)).getTitle();
 			System.out.println(title);
+			System.out.println("Hello World");
 
 		}
 
